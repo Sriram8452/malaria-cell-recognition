@@ -165,3 +165,24 @@ print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 
 ```
+## OUTPUT
+
+### Training Loss, Validation Loss Vs Iteration Plot
+
+
+
+### Classification Report
+
+
+
+### Confusion Matrix
+
+
+
+### New Sample Data Prediction
+
+
+
+## RESULT:
+Thus a deep neural network for Malaria infected cell recognition and to analyze the performance is created using tensorflow.
+
