@@ -151,8 +151,6 @@ results = model.fit(train_image_gen,epochs=3,validation_data=test_image_gen)
 
 model.save('cell_model.h5')
 losses = pd.DataFrame(model.history.history)
-print("Sriram G")
-print("212222230149")
 losses[['loss','val_loss']].plot()
 
 model.metrics_names
@@ -169,17 +167,23 @@ confusion_matrix(test_image_gen.classes,predictions)
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
+![image](https://github.com/Sriram8452/malaria-cell-recognition/assets/118708032/390a25bf-9511-4438-9293-20947860bbe6)
 
 
 ### Classification Report
 
+![image](https://github.com/Sriram8452/malaria-cell-recognition/assets/118708032/13dc5e37-c79b-48a1-abb0-274a0b172811)
 
 
 ### Confusion Matrix
 
+![image](https://github.com/Sriram8452/malaria-cell-recognition/assets/118708032/178fc0ee-2021-4a8e-9d45-7926ae0ff3fb)
+
 
 
 ### New Sample Data Prediction
+
+![image](https://github.com/Sriram8452/malaria-cell-recognition/assets/118708032/8ad11130-ecc6-4f4b-9e79-1b480470679e)
 
 
 
